@@ -111,16 +111,22 @@ svg{
   .main{
     width: 600px;
     display: flex;
+   
     align-items: stretch;
     overflow: hidden;
     padding: 0px
   }
+  .content{
+    padding:30px 20px;
+    width:520px
+  }
 .bgImage{
 
 background-size: cover;
+width: 550px;
 border-radius: 0px;
     background-image: url("images/image-product-desktop.jpg");
-    flex-grow: 1;
+
    height:auto
 }
 
